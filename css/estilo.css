@@ -124,3 +124,68 @@ header{
     flex-basis: 300px;
     padding: 0 10px;
 }
+
+/*ESPECIALIDADES*/
+#especialidades{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+
+}
+#especialidades img{
+    width: 110px;
+    margin: 10px 0;
+}
+#especialidades div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#especialidades p{
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2;
+    text-align: justify;
+}
+#especialidades{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#especialidades h2{
+    text-align: center;
+    width: 100%;
+}
+#especialidades div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+/*COMPETÊNCIAS SOCIOEMOCIONAIS*/
+#competencias{
+    padding-left: 3%;
+}
+#competencias img{
+    border-radius: 50%;
+    width: 100px;
+}
+#competencias a{
+    color: black;
+    text-decoration: none;
+}
+#competencias a:hover{
+    color:#c33b4d; 
+}
+
+/*PORTIFÓLIO*/
+#portifolio{
+    padding-left: 3%;
+}
