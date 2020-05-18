@@ -189,3 +189,62 @@ header{
 #portifolio{
     padding-left: 3%;
 }
+
+/*CONTATO*/
+#contato{
+    background-color: rgb(41, 41, 41);
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+input[type=submit]{
+    background-color: #c33b4d;
+    border: black;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 4px;
+    padding: 10px 21px;
+    font-size:0.8em;
+}
+textarea{
+    border-radius: 4px;
+    height: 96px;
+    width: 293px;
+    border: black;
+}
+input[type=email]{
+    border-radius: 4px;
+    height: 25px;
+    border: black;
+}
+input[type=text]{
+    border-radius: 4px;
+    height: 25px;
+    border: black;
+}
+#contato img{
+    width: 50px;
+}
+#contato p{
+    color: white;
+    line-height: 2;
+}
+#contato h2{
+    color: white;
+    font-size: 1.5em;
+}
+
+/*RODAPÉ*/
+footer{
+    background-color: rgb(41, 41, 41);
+    padding-left: 3%;
+}
+footer p{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: #c33b4d;
+    text-align: right;
+}
