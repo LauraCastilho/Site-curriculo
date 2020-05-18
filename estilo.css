@@ -1,0 +1,59 @@
+/*GERAL*/
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 100%;
+}
+h2{
+    font-size: 2em;
+    color: black;
+}
+
+/*MENU*/
+nav ul li a h5{
+    font-size: 1em;
+    color: #c33b4d;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 0.5%;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.logo li a:hover{
+    color:#c33b4d; 
+}
+@media screen and (min-width: 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction: row;
+        width: 75%;
+    }
+}
