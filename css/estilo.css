@@ -57,3 +57,70 @@ nav ul li a{
         width: 75%;
     }
 }
+
+/*HEADER*/
+header{
+    background-image: url(../img/Montanhas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+    color: #000;
+    font-size: 1.5em;
+}
+.botao{
+    text-decoration: none;
+    color: #c33b4d;
+    padding: 10px 21px;
+    background-color: rgb(41, 41, 41);
+    font-size: 0.8em;
+    box-shadow: 9px 11px 5px #000;
+}
+
+
+/*SOBRE*/
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+#sobre h2{
+    margin-top: 20px;
+}
+.foto img{
+    width: 50%;
+}
+.foto{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.texto{
+    float: right;
+    width: 70%;
+}
+#sobre{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    min-height: 80vh;
+}
+#sobre h2{
+    text-align: center;
+    width: 100%;
+}
+#sobre div{
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 10px;
+}
