@@ -122,12 +122,18 @@ header{
 #sobre div{
     flex-grow: 1;
     flex-basis: 300px;
-    padding: 0 60px;
+    padding-top: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px
 }
 
 /*ESPECIALIDADES*/
 #especialidades{
-    padding: 60px;
+    padding-top: 200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +201,7 @@ header{
     color:#c33b4d; 
 }
 #competencias{
-    padding: 60px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,66 +227,272 @@ header{
     padding: 0 10px;
     text-align: center;
 }
-/*PORTIFÓLIO*/
+
+/*HISTÓRICO ESCOLAR E CERTIFICADOS*/
+#portifolio h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
 #portifolio{
     padding-left: 3%;
+}
+#portifolio h2{
+    text-align: center;
+}
+#portifolio{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+#portifolio{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 500px;
+    margin: 0 auto;
+}
+#portifolio div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#portifolio div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+/*ALGUNS TRABALHOS*/
+#alguns h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#alguns p{
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2;
+    text-align: center;
+}
+.trab img{
+    border: 4px groove black;
+    width: 100%;
+}
+#alguns{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+#alguns{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 10000px;
+    margin: 0 auto;
+}
+#alguns div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#alguns div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+    text-align: center;
+}
+.trab:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+/*SCRATCH*/
+#projeto h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+}
+.projeto{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+#projeto h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/*CURSO*/
+#curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+}
+#curso img{
+    width: 100%;
+}
+#curso div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#curso div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+    text-align: center;
+}
+#curso{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*HOBBIES*/
+#hobby{
+    padding-top: 130px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+
+}
+#hobby img{
+    width: 110px;
+    margin: 10px 0;
+}
+#hobby div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#hobby p{
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2;
+    text-align: center;
+}
+#hobby{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#hobby h2{
+    text-align: center;
+    width: 100%;
+}
+#hobby div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+    text-align: center;
 }
 
 /*CONTATO*/
 #contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     background-color: rgb(41, 41, 41);
-    padding-left: 3%;
-    font-size: 1.2em;
-}
-input[type=submit]{
-    background-color: #c33b4d;
-    border: black;
-    font-family: 'Manrope', sans-serif;
-    border-radius: 4px;
-    padding: 10px 21px;
-    font-size:0.8em;
-}
-textarea{
-    border-radius: 4px;
-    height: 96px;
-    width: 293px;
-    border: black;
-}
-input[type=email]{
-    border-radius: 4px;
-    height: 25px;
-    border: black;
-}
-input[type=text]{
-    border-radius: 4px;
-    height: 25px;
-    border: black;
+    width: 100%;
 }
 #contato img{
-    width: 50px;
+    width: 10%;
 }
 #contato p{
     color: white;
-    line-height: 2;
 }
 #contato h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
     color: white;
-    font-size: 1.5em;
+}
+#contato > p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+#contato a{
+    color: white;
+    text-decoration: none;
+}
+#contato a:hover{
+    color:#c33b4d; 
+}
+#contato h3{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+@media screen and (min-width: 768px){
+    #contato{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        max-height: 50vh;
+        width: 100%;
+    }
 }
 
 /*RODAPÉ*/
 footer{
     background-color: rgb(41, 41, 41);
-    padding-left: 3%;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 footer p{
     color: white;
-}
-footer ul{
-    list-style-type: none;
-}
-footer a{
-    text-decoration: none;
-    color: #c33b4d;
-    text-align: right;
 }
